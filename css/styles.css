@@ -1,0 +1,164 @@
+
+body {
+    font-family: "montserrat";
+}
+
+#title {
+    background-color: #2C2E43;
+    color: white;
+    
+}
+
+.container-fluid {
+    padding: 1% 5% 7%;
+}
+
+h1 {  font-family: "Montserrat-Black";  
+    font-size: 3.5rem ;  
+    line-height: 1.5 ;
+    font-weight: 900;  
+    
+}
+
+h2 {
+    font-family: "Montserrat-Bold";
+    font-size: 4rem;
+    line-height: 1.5;
+}
+
+h3 {
+    font-family: "Montserrat-Bold";
+    font-weight: 900; 
+}
+
+p {
+    color: #8f8f8f;
+}
+/* Navigation Bar */
+.nav-item {
+    padding: 0 18px;
+}
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold ;
+}
+.navbar {
+    padding: 0 0 7.5rem ;
+}
+
+.nav-link {
+    font-size: 1.2rem ;
+    font-family: "montserrat-light";
+}
+
+
+/* Call me button */
+
+.download-button {
+    margin: 5% 3% 5% 0;
+    
+}
+
+/* Title Image */
+
+.title-image {
+    width: 60% ;
+    transform: rotate(25deg);
+    
+    position: absolute;
+    
+}
+
+/* About Section */
+.aamirkhanG {
+    width: 15rem;
+    border-radius: 50%;
+    padding-bottom:0.5em;
+}
+
+
+
+#features {
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+    overflow: auto;
+    
+   
+}
+
+.feature-box {
+    text-align: center;
+    padding: 5%;
+}
+
+
+
+
+/* Testimonials Section */
+
+#testimonials {
+    
+    text-align: center;
+    background-color: #595260;
+    color: #fff;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+#press {
+    background-color: #595260;
+    padding-bottom: 3%;
+    text-align: center;
+}
+
+.press-logo {
+    width: 5%;
+    margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+@media (max-width: 1028px) {
+
+    #title {
+        text-align: center;
+    }
+    .title-image {
+        position: static;
+        transform: rotate(0);
+    }
+}
+
+/* Call to Action */
+#cta {
+    background-color: #595260;
+    color: #fff; 
+    padding: 7% 15%;
+    text-align: center;
+
+}
+
+.cta-heading {
+    font-family: "Montserrat-Black";
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
